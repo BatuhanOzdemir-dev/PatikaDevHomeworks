@@ -1,2 +1,3 @@
-# InsertionSortHomework
-www.patika.dev Insertion Sort ödevi.
+# Homeworks
+
+www.patika.dev homeworks will be uploaded into this repository.
