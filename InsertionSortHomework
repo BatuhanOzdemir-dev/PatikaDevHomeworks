@@ -1,0 +1,23 @@
+[22, 27, 16, 2, 18, 6] -> Insertion Sort
+
+1. Insertion sort aşamaları:
+	1- [2, 22, 27, 16, 18, 6]
+	2- [2, 6, 22, 27, 16, 18]
+	3- [2, 6, 16, 22, 27, 18]
+	4- [2, 6, 16, 18, 22, 27]
+2. Big-O gösterimi:
+	O(n-2 + n-1 + n-3 + n-4 + 1)
+                =O(n(n+1) / 2)
+                =O(n*n)
+3. Time Complexity:
+	Average Case: aranan sayının ortada olması, yani 16 & 18
+	Worst Case: Aranan sayının sonda olması, yani 27
+	Best Case: Aranan sayının başta olması, yani 2
+4. 18 sayısı case kapsamı:
+	18 sayısı Average case kapsamındadır.
+
+[7, 3, 5, 8, 2, 9, 4, 15, 6] dizisi Insertion Sort'a göre ilk 4 aşamasını yazınız.
+	1- [2, 7, 3, 5, 8, 9, 4, 15, 6]
+	2- [2, 3, 7, 5, 8, 9, 4, 15, 6]
+	3- [2, 3, 4, 7, 5, 8, 9, 15, 6]
+	4- [2, 3, 4, 5, 7, 8, 9, 15, 6]
